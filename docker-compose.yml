@@ -4,7 +4,7 @@ services:
   chatgpt-lite:
     build: .
     ports:
-      - "6000:6000"
+      - "3000:3000"
     environment:
       - OPENAI_API_BASE_URL=
       - OPENAI_API_KEY=

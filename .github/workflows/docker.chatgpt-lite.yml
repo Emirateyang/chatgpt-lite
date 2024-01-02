@@ -34,5 +34,5 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: krinsiman/chatgpt-lite:1.0.0
+          tags: krinsiman/chatgpt-lite:1.0.1
           labels: ${{ steps.meta.outputs.labels }}
